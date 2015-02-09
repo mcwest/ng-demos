@@ -11,9 +11,6 @@
         /*jshint validthis: true */
         var vm = this;
 
-        var keyCodes = config.keyCodes;
-        var applyFilter = function () {};
-
         vm.filteredSessions = [];
         vm.gotoSession = gotoSession;
         vm.refresh = refresh;
@@ -22,6 +19,9 @@
         vm.sessionsFilter = sessionsFilter;
         vm.sessionsSearch = $routeParams.search || '';
         vm.title = 'Sessions';
+
+        var keyCodes = config.keyCodes;
+        var applyFilter = function () {};
 
         activate();
 
