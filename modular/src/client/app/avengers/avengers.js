@@ -10,6 +10,7 @@
         /*jshint validthis: true */
         var vm = this;
         vm.avengers = [];
+        vm.getAvengers = getAvengers;
         vm.title = 'Avengers';
 
         activate();
