@@ -1,0 +1,3 @@
+These todo's document how McWest angularjs-styleguide deviates from this application.
+
+*  modular/src/client/test directory should be removed, since tests are embedded with files they test
